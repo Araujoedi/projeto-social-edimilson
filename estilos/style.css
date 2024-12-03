@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-    background: url("../imagens/fundo-madeira.jpg") no-repeat top center;
+    background: url("../imagens/wp7137848.webp") no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -25,8 +25,8 @@ main {
 
 section#telefone {
     position:absolute;
-    top: 15%;
-    left: 44%;
+    top: 21%;
+    left: 43.8%;
     transform: translate(-50% -50%);
 
     height: 765px;
