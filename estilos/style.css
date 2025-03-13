@@ -1,8 +1,8 @@
-@charset "UTF8";
+@charset "UTF-8";
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0PX;
+    padding: 0PX;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -13,25 +13,25 @@ html, body {
 }
 
 body {
-    background: url("../imagens/wp7137848.webp") no-repeat top center;
+    background: url("../imagens/fundo-madeira.jpg") no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 main {
     position: relative;
-    height: 100vh;
+    height: 100vh;    
 }
 
 section#telefone {
-    position:absolute;
-    top: 11%;
-    left: 43.8%;
-    transform: translate(-50% -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
     height: 765px;
-    width: 350px;
-    background: url('../imagens/frame-motorola.png') no-repeat;
+    width: 350px;    
+    background:  url('../imagens/frame-motorola.png') no-repeat;
 }
 
 iframe#tela {
@@ -41,7 +41,6 @@ iframe#tela {
     width: 290px;
     height: 645px;
     border-radius: 25px;
-    
 }
 
 section#redes-sociais {
@@ -52,13 +51,13 @@ section#redes-sociais img {
     width: 50px;
     margin: 10px;
     border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, .0400);
-    box-shadow: border-box;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
 }
 
 section#redes-sociais img:hover {
     border: 2px solid rgba(255, 255, 255, 0.637);
-    transform: translate(-3px, -3px);
+    transform: translate(-3px,-3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
     transition: transform .3s, border .4s;
 }
